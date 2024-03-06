@@ -1,0 +1,24 @@
+.footer {
+	&__btn {
+		border-radius: 4px;
+		font-size: 18px;
+		line-height: 21px;
+		padding: 10px 40px;
+		border: 1px solid #c1c1c1;
+		background: #fff;
+		cursor: pointer;
+		transition: 0.3s ease;
+		&:hover {
+			background-color: #e6e6e6;
+		}
+		&_submit {
+			background-color: #4486FB;
+			color: #fff;
+			border: 1px solid #4486FB;
+			margin-right: 20px;
+			&:hover {
+				background-color: #0d61e8;
+			}
+		}
+	}
+}
